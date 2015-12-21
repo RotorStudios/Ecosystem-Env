@@ -13,7 +13,6 @@ set ECO_ENV=%ECO_ROOT%\Ecosystem-Env\env
 echo ECO_ENV=%ECO_ENV%
 set PATH=%PATH%;^
 %ECO_ROOT%\Ecosystem\bin;^
-%ECO_ROOT%\Ecosystem-Env\bin;^
-S:\dev_area\Utilities\unxUtils
+%ECO_ROOT%\Ecosystem-Env\bin;
 
-set RS_SHORTCUTS=S:\dev_area\Applications
+set RS_SHORTCUTS=S:\dev_area\DEPLOYMENT\DEV\apps
