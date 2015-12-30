@@ -19,15 +19,15 @@ Doskey maya2015-devjc=%eco_run_w% -r maya -t base,maya2015,mayaportable,devjc,mt
 
 :: IDE aliases
 ::Doskey     sublimeText2=%eco_run_w -r sublime_text -t base,sublimeText2
-Doskey sublime2=%RS_SHORTCUTS%\sublime_text2.lnk
-Doskey sublime3=%RS_SHORTCUTS%\sublime_text3.lnk
+Doskey sublime2=%RS_AUXILIARY%\sublime_text2.lnk
+Doskey sublime3=%RS_AUXILIARY%\sublime_text3.lnk
 
 
-:: production tool aliases
-Doskey rv=%RS_SHORTCUTS%\rv-stable.lnk
-Doskey sg=%RS_SHORTCUTS%\shotgun.lnk
+:: auxiliary tool aliases
+Doskey rv=%RS_AUXILIARY%\rv-stable.lnk
+Doskey sg=%RS_AUXILIARY%\shotgun.lnk
 
-Doskey xy=%RS_SHORTCUTS%\XYplorer.lnk
+Doskey xy=%RS_AUXILIARY%\XYplorer.lnk
 
 
 
