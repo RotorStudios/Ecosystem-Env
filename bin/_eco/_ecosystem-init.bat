@@ -16,5 +16,4 @@ set PATH=%PATH%;^
 %ECO_ROOT%\ecosystem\bin;^
 %ECO_ROOT%\ecosystem-env\bin
 
-
-set RS_AUXILIARY=S:\dev\auxiliary\apps
+call %~dp0_studio-init.bat
