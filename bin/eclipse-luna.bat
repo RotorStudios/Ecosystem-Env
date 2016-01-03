@@ -1,4 +1,9 @@
 @echo off&setlocal
-call %~dp0init-launcher.bat
+
+echo %CD%\..
+
+call %~dp0_eco\_ecosystem-init.bat
 title %~0
-call %eco_run% -r __eclipse-launch.bat -t eclipse-luna,base,dev,python2.7.9
+echo launching: %~0
+
+call %eco_run% -r _launch-eclipse.bat -t base,dev,eclipse-luna,python2.7.9
