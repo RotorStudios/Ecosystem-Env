@@ -4,9 +4,6 @@ mode con: cols=100 lines=50
 powershell -command "&{$H=get-host;$W=$H.ui.rawui;$B=$W.buffersize;$B.width=100;$B.height=9999;$W.buffersize=$B;}"
 
 
-Doskey eco=%eco_run% $*
-
-
 :: Maya aliases
 Doskey maya2015=%eco_run_w%       -r maya -t base,maya2015,mayaportable,stable
 
@@ -19,15 +16,15 @@ Doskey maya2015-devjc=%eco_run_w% -r maya -t base,maya2015,mayaportable,devjc,mt
 
 :: IDE aliases
 ::Doskey     sublimeText2=%eco_run_w -r sublime_text -t base,sublimeText2
-Doskey sublime2=%RS_AUXILIARY%\sublime_text2.lnk
-Doskey sublime3=%RS_AUXILIARY%\sublime_text3.lnk
+Doskey sublime2=%RS_AUXILIARY%\apps\sublime_text2.lnk
+Doskey sublime3=%RS_AUXILIARY%\apps\sublime_text3.lnk
 
 
 :: auxiliary tool aliases
-Doskey rv=%RS_AUXILIARY%\rv-stable.lnk
-Doskey sg=%RS_AUXILIARY%\shotgun.lnk
+Doskey rv=%RS_AUXILIARY%\apps\rv-stable.lnk
+Doskey sg=%RS_AUXILIARY%\apps\shotgun.lnk
 
-Doskey xy=%RS_AUXILIARY%\XYplorer.lnk
+Doskey xy=%RS_AUXILIARY%\apps\XYplorer.lnk
 
 
 
