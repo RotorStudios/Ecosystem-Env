@@ -1,0 +1,1 @@
+start nuke%NUKE_MAJOR_VERSION%
