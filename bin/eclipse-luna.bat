@@ -1,7 +1,4 @@
 @echo off&setlocal
-
-echo %CD%\..
-
 call %~dp0_eco\_ecosystem-init.bat
 title %~0
 echo launching: %~0
