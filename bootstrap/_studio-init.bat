@@ -7,10 +7,16 @@ set "RS_SW=S:\dev\_S\sw"
 set "RS_USER_home=T:\users\%USERNAME%"
 set "RS_USER_DEV_home=S:\dev\_S\dev-area\home\%USERNAME%"
 set "VIRTUAL_ENV=%RS_SW%\apps\python\py2.7.9-win64"
+
 call :check_path %RS_SW%
 call :check_path %RS_USER_home%
 call :check_path %RS_USER_DEV_home%
 call :check_path %VIRTUAL_ENV%\Scripts\activate.bat
+call :check_path %RS_SW%\chocolatey\bin
+
+set "PATH=%PATH%;%RS_SW%\chocolatey\bin"
+%VIRTUAL_ENV%\Scripts\activate.bat
+
 
 goto End
 
