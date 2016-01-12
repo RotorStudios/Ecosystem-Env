@@ -8,9 +8,9 @@ echo.
 echo commands:
 echo.
 echo    eco - ecosystem: Peregrine Ecosystem, environment, 
-echo                      build and deploy management toolset v0.1.1
+echo                     build and deploy management toolset v0.1.1
 echo.
-echo                      eco -r ^<run_command^> -t ^<list_of_tools^>
+echo                     eco -r ^<run_command^> -t ^<list_of_tools^>
 echo          Example: eco -r maya -t base,maya2015,stable
 echo.
 echo    maya2015        - maya 2015: stable production, maya portable - on
@@ -26,5 +26,7 @@ echo.
 echo    rv - review tool: simlar to djv
 echo    sg - shotgun desktop
 echo    xy - xyplorer: windows explorer alternative
+echo.
+echo	choco - kind of like apt-get, but for Windows. https://chocolatey.org/
 echo.
 echo.
