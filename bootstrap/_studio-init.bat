@@ -6,7 +6,8 @@ echo  @%~0
 set "RS_SW=S:\dev\_S\sw"
 set "RS_USER_home=T:\users\%USERNAME%"
 set "RS_USER_DEV_home=S:\dev\_S\dev-area\home\%USERNAME%"
-set "VIRTUAL_ENV=%RS_SW%\apps\python\py2.7.9-win64"
+set "VIRTUAL_ENV=%RS_SW%\apps\python\py2.7.11-win64"
+
 
 call :check_path RS_SW  %RS_SW%
 call :check_path RS_USER_home  %RS_USER_home%
@@ -15,6 +16,7 @@ call :check_path virtual_env/script  %VIRTUAL_ENV%\Scripts\activate.bat
 call :check_path chocolatey  %RS_SW%\chocolatey\bin
 
 set "PATH=%PATH%;%RS_SW%\chocolatey\bin"
+set "ChocolateyInstall=%RS_SW%\chocolatey"
 %VIRTUAL_ENV%\Scripts\activate.bat
 
 

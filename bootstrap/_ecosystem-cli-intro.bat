@@ -27,6 +27,6 @@ echo    rv - review tool: simlar to djv
 echo    sg - shotgun desktop
 echo    xy - xyplorer: windows explorer alternative
 echo.
-echo	choco - kind of like apt-get, but for Windows. https://chocolatey.org/
+echo    choco - kind of like apt-get, but for Windows. https://chocolatey.org/
 echo.
 echo.
