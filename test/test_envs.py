@@ -78,7 +78,6 @@ TEST_GET_ENV = '''#Environment created via Ecosystem
 '''
 
 ECO_ROOT = os.environ.get('ECO_ROOT') or os.path.dirname(os.path.dirname(os.path.realpath(__file__)))
-ECO_ENV  = os.path.join(ECO_ROOT, 'Ecosystem-Env')
 
 from ecosystem import ValueWrapper, Variable, Tool, Environment, list_available_tools, main
 
