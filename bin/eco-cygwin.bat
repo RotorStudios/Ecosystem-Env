@@ -2,14 +2,14 @@
 
 call %~dp0_eco\_ecosystem-init.bat
 :: set $HOME dir for cygwin
-set HOME=%RS_USER_home%\cygwin64
+set HOME=%RS_USER_HOME%\cygwin64
 
 set SHELL=/usr/bin/bash
 set CHERE_INVOKING=1
 set ECO_HOME=%ECO_ROOT%\eco-env\bin
 
 
-call :check_path RS_USER_home  %RS_USER_home%
+call :check_path RS_USER_HOME  %RS_USER_HOME%
 call :check_path HOME  %HOME%
 call :check_path ECO_HOME  %ECO_HOME%
 
