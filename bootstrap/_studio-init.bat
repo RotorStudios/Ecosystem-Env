@@ -2,7 +2,7 @@
 echo.
 echo  @%~0
 
-
+set "RS_STUDIO_VER=v0002"
 set "RS_SW=S:\dev\_S\sw"
 set "RS_DEV_HOME=S:\dev\_S\dev-area\home"
 set "RS_USER_HOME=T:\users\%USERNAME%"
